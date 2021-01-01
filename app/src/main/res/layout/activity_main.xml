@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:spanCount="2"
+        tools:listitem="@layout/list_item_episode"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
