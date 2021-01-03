@@ -12,6 +12,7 @@
         android:layout_height="300dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="center"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars"
         android:contentDescription="@string/episode_image"/>
